@@ -25,12 +25,12 @@ describe('Multiply', () => {
 
 describe('Power', () => {
   it('power 2 and 0', () => {
-    expect(power(2, 0)).tobe(1);
+    expect(power(2, 0)).toBe(1);
   });
   it('power 3 and 1', () => {
-    expect(power(3, 1)).tobe(3);
+    expect(power(3, 1)).toBe(3);
   });
   it('power 2 and 3', () => {
-    expect(power(2, 3)).tobe(8);
+    expect(power(2, 3)).toBe(8);
   });
 });
